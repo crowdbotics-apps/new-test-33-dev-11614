@@ -35,7 +35,6 @@ export class __Blank extends React.Component {
       >
         Press me!1
       </Button>
-      <View style={this.props.themedStyle.View_3} />
       <Button
         textStyle={{
           fontSize: 12,
@@ -114,36 +113,6 @@ _Blank = withStyles(__Blank, theme => ({
     textTransform: "none",
     lineHeight: 13,
     letterSpacing: 0
-  },
-  View_3: {
-    marginLeft: 0,
-    marginRight: 0,
-    marginTop: 0,
-    marginBottom: 0,
-    paddingLeft: 0,
-    paddingRight: 0,
-    paddingTop: 0,
-    paddingBottom: 0,
-    overflow: "visible",
-    fontSize: 12,
-    color: "#000000",
-    backgroundColor: "#ffffff",
-    fontStyle: "normal",
-    fontWeight: "normal",
-    flexDirection: "row",
-    flexWrap: "wrap",
-    justifyContent: "flex-start",
-    alignItems: "stretch",
-    alignContent: "stretch",
-    borderColor: "#000000",
-    borderStyle: "solid",
-    borderWidth: 0,
-    borderLeftWidth: 0,
-    borderRightWidth: 0,
-    borderTopWidth: 0,
-    borderBottomWidth: 0,
-    borderRadius: 0,
-    backgroundSize: "auto"
   },
   Button_7: {
     width: "100%",
