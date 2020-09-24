@@ -24,7 +24,7 @@ export class __Blank extends React.Component {
     <View style={this.props.themedStyle.View_1}>
       <Button
         textStyle={{
-          fontSize: 1211,
+          fontSize: 12,
           color: "#000000",
           textAlign: "center",
           fontWeight: "normal",
@@ -33,7 +33,7 @@ export class __Blank extends React.Component {
         style={this.props.themedStyle.Button_2}
         onPress={() => alert("Pressed!")}
       >
-        Press me!
+        Press me!1
       </Button>
       <View style={this.props.themedStyle.View_3}>
         <View style={this.props.themedStyle.View_5} />
