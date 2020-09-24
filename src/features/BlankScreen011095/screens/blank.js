@@ -25,7 +25,6 @@ export class __Blank extends React.Component {
       <Button
         textStyle={{
           fontSize: 12,
-            test: 1,
           color: "#000000",
           textAlign: "center",
           fontWeight: "normal",
@@ -99,7 +98,7 @@ _Blank = withStyles(__Blank, theme => ({
     textAlignVertical: "center",
     textDecorationLine: "none",
     textTransform: "none",
-    lineHeight: 12,
+    lineHeight: 13,
     letterSpacing: 0
   }
 }))
